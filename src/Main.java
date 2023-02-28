@@ -24,12 +24,12 @@ public class Main {
                 System.out.println("The sum is " + sum); //lets the user know the sum of the first roll
                 if (sum == 7 || sum == 11) //if statement that will run the code block if the condition is met
                 {
-                    System.out.println("The sum of your roll is " + sum + " You win!"); // output that lets the user know that they won
+                    System.out.println("The sum of your roll is " + sum + " You rolled a natural and won!"); // output that lets the user know that they won
                     crapsRoll = true; // boolean that will break out of the loop
                 }
                 else if (sum == 2 || sum == 3 || sum == 12) // else if statement that will run the code block below if the conditions are met
                 {
-                    System.out.println("The sum of your roll is " + sum + " You lose!");  //out put that lets the user know that they lost
+                    System.out.println("The sum of your roll is " + sum + " You crapped out!");  //out put that lets the user know that they lost
                     crapsRoll = true; //boolean that will break out of the loop
                 }
                 else // else statement that stores the point value if none of the above conditions are met
