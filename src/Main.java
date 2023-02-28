@@ -60,7 +60,7 @@ public class Main {
                 }
 
             }
-            while (!crapsRoll); // lets us know what is expected in order to break loop
+            while(!crapsRoll); // lets us know what is expected in order to break loop
 
 
             System.out.println("Do you want to play again? Y/N"); // asks user if they want to play again
